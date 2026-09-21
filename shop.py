@@ -27,3 +27,5 @@ def go_shopping():
         print('Now you can go back to forest and kill the dragon')
     if (choice == '2'):
         print('Turn back and forget the forest')
+
+    print('end game')
