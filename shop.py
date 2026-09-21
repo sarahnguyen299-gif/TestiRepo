@@ -16,3 +16,14 @@ def go_shopping():
         return "Apple"
     else:
         print("You haven't chosen")
+
+    def shop():
+    print('Welcome to the shop')
+    print('Decide what to buy!')
+
+    choice = str(input('Hammer or apple? (1 or 2): '))
+
+    if (choice == '1'):
+        print('Now you can go back to forest and kill the dragon')
+    if (choice == '2'):
+        print('Turn back and forget the forest')
